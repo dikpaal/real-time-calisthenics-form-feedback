@@ -12,14 +12,6 @@ This project provides real-time feedback on squat form using a pre-trained pose 
   - Knees caving in
   - Asymmetrical posture
 
-## 📂 File Structure
-```
-├── 3.tflite # Pretrained pose estimation model
-├── squat_11.mp4 # Input video (or use webcam)
-├── squat_form.py # Main script with all logic
-├── README.md # You're here!
-```
-
 ## 🧠 Key Concepts
 
 - **Pose Estimation**: TensorFlow Lite model outputs 17 key body points with confidence scores.

@@ -13,12 +13,12 @@ This project provides real-time feedback on squat form using a pre-trained pose 
   - Asymmetrical posture
 
 ## 📂 File Structure
-
+```
 ├── 3.tflite # Pretrained pose estimation model
 ├── squat_11.mp4 # Input video (or use webcam)
 ├── squat_form.py # Main script with all logic
 ├── README.md # You're here!
-
+```
 
 ## 🧠 Key Concepts
 
@@ -34,15 +34,11 @@ Install via `pip`:
 ```bash
 pip install tensorflow numpy opencv-python matplotlib
 ▶️ Usage
-Place your .tflite model in the root directory as 3.tflite.
 
-Replace squat_11.mp4 with your own video or use cv2.VideoCapture(0) for webcam.
+- Replace squat_11.mp4 with your own video or use cv2.VideoCapture(0) for webcam.
 
 Run the main script:
 
-bash
-Copy
-Edit
 python squat_form.py
 Press q to quit the video window.
 
@@ -54,15 +50,6 @@ Press q to quit the video window.
 "Ensure both sides move symmetrically"
 
 "Good form!"
-
-🧹 Improvements To Consider
-Integrate pose smoothing filters
-
-Add repetition counter
-
-Expand to other exercises like push-ups or lunges
-
-Use MediaPipe or MoveNet for higher-accuracy pose tracking
 
 🧑‍💻 Author
 Dikpaal Patel
